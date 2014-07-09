@@ -5,7 +5,8 @@ def madlib_word(word_type)
   gets.chomp
 end
 
-puts "\nHere is your madlib:\nA vacation is when you take a trip to some #{madlib_word('an adjective')} place
+puts <<MADLIB
+\nHere is your madlib:\nA vacation is when you take a trip to some #{madlib_word('an adjective')} place
 with your #{madlib_word('another adjective')} family. Usually you go to some place
 that is near a/an #{madlib_word('a noun')} or up a/an #{madlib_word('another noun')}.
 A good vacation place is one where you can ride #{madlib_word('a plural noun')}
@@ -21,3 +22,4 @@ need vacations more than kids because parents are always very
 #{madlib_word('another adjective')} and because they have to work #{madlib_word('a number')}
 hours every day all year making enough #{madlib_word('another plural noun')} to pay
 for the vacation."
+MADLIB
