@@ -10,8 +10,10 @@ class Coffee
   end
 
   def brew_stregth(darkness)
-    if darkness > 10 || darkness < 1
-      puts 'Please select a value between 1 (lighter) and 10 (darker)'
+    if darkness > 10
+      @strength = 10
+    elsif darkness < 1
+      @strength = 1
     else
     @strength = darkness
     end
@@ -44,8 +46,9 @@ class Coffee
 end
 
 my_cup = Coffee.new
-my_cup.brew_stregth(11)
-my_cup.brew_stregth(4)
+print "Please select the darkenss - "
+strength = gets.chomp
+my_cup.brew_stregth(strength)
 my_cup.brew_size(22)
 my_cup.brew_size(6)
 my_cup.start_brewing

@@ -28,9 +28,9 @@ class CashRegister
       @total = 0
       puts 'Thank you for exact change'
     elsif payment_amount > @total
-      @change = payment_amount - @total
+      change = payment_amount - @total
       @total = 0
-      puts 'Your change is $%.2f' %@change
+      puts 'Your change is $%.2f' %change
     end
   end
 end
