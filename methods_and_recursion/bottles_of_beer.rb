@@ -3,7 +3,7 @@
 starting_bottles = 100
 
 def recursion (bottles)
-  puts "#{bottles} bottles of beer on the wall. #{bottles} bottles of beer."
+  puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer."
   bottles -= 1
   puts "Take one down and pass it around, #{bottles} bottles of beer on the wall.\n\n"
   if bottles > 0
