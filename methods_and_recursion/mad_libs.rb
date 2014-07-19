@@ -8,7 +8,7 @@ end
 puts <<MADLIB
 \nHere is your madlib:\nA vacation is when you take a trip to some #{madlib_word('an adjective')} place
 with your #{madlib_word('another adjective')} family. Usually you go to some place
-that is near a/an #{madlib_word('a noun')} or up a/an #{madlib_word('another noun')}.
+that is near a/an #{madlib_word('a noun')} or up on a/an #{madlib_word('another noun')}.
 A good vacation place is one where you can ride #{madlib_word('a plural noun')}
 or play #{madlib_word('a game')} or go hunting for #{madlib_word('another plural noun')}. I like
 to spend my time #{madlib_word("a verb ending in 'ing'")} or #{madlib_word("another verb ending in 'ing'")}.

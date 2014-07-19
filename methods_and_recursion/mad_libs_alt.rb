@@ -16,7 +16,7 @@ madlib_part_list.each { |part|
 
 puts "A vacation is when you take a trip to some #{entered_parts[0]} place
 with your #{entered_parts[1]} family. Usually you go to some place
-that is near a/an #{entered_parts[2]} or up a/an #{entered_parts[3]}.
+that is near a/an #{entered_parts[2]} or up on a/an #{entered_parts[3]}.
 A good vacation place is on e where you can ride #{entered_parts[4]}
 or play #{entered_parts[5]} or go hunting for #{entered_parts[6]}. I like
 to spend my time #{entered_parts[7]} or #{entered_parts[8]}.
