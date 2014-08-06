@@ -10,7 +10,7 @@ range = Array.new(100)
 # Use the index number as the counter to loop through the
 # if statements to produce the output.
 range.each_index {|index|
-  if (index % 3).zero? && (index % 5).zero?
+  if (index % 3).zero? && (index % 5).zero?a
     puts 'FizzBuzz'
 
   elsif (index % 3).zero?
