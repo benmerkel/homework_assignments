@@ -3,7 +3,7 @@
 array = (1..10).to_a
 
 puts array.join("...").to_s + '...'
-puts "T-#{array.reverse.join(", ")}... BLASTOFF!"
+puts "T-#{array.reverse.join(", ")}...  BLASTOFF!"
 puts "The last element is #{array.last}"
 puts "The first element is #{array.first}"
 puts "The third element is #{array[2]}"
