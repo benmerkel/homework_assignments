@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative('lib/coffee_pot')
+require_relative('coffee_pot')
 
 my_cup = CoffeePot.new
 

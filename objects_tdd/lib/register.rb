@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative('lib/cash_register')
+require_relative('cash_register')
 
 register = CashRegister.new
 register.total
